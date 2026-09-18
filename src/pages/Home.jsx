@@ -27,6 +27,23 @@ const Home = () => {
         </a>
       </div>
 
+      <div className="home-specialization">
+        <h2 className="specialization-heading">Where AI Meets Design</h2>
+        <p className="specialization-text">
+          I specialize in AI tooling, finding practical ways to weave generative AI into existing
+          workflows, particularly within design driven spaces. Working alongside cross functional
+          teams, I build functional prototypes from the ground up using tools like Devin, Claude,
+          and Cursor, turning early concepts into working software fast.
+        </p>
+        <p className="specialization-text">
+          What sets my work apart is the blend of software engineering and design sensibility I
+          bring to every build. AI can move quickly, but speed alone often produces interfaces
+          that feel generic and unmistakably AI-generated. I bridge that gap, pairing AI accelerated
+          development with a strong eye for visual polish and intuitive interaction, so what I
+          ship feels considered and human rather than machine made.
+        </p>
+      </div>
+
       <div className="home-projects">
         <Link to="/projects/xbox-gaming-and-wellness-insights" className="project-card project-card-link">
           <img src={xboxPrototypeScreens} alt="XBox Gaming and Wellness Insights" className="project-card-image" />
