@@ -10,7 +10,7 @@ import BonkLite from './pages/BonkLite'
 
 const App = () => {
   return (
-    <Router basename="/Danielle8.github.io">
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
