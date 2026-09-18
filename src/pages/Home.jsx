@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import Footer from '../components/footer/Footer'
 import xboxPrototypeScreens from '../assets/projects/xbox-prototype-screens.png'
+import coeurHomepage from '../assets/projects/coeur-homepage.jpg'
+import bonkLitePoster from '../assets/projects/bonk-lite-poster.jpg'
 import './Home.css'
 
 const Home = () => {
@@ -30,9 +32,14 @@ const Home = () => {
           <img src={xboxPrototypeScreens} alt="XBox Gaming and Wellness Insights" className="project-card-image" />
           <span className="project-card-label">XBox Gaming and Wellness Insights</span>
         </Link>
-        <div className="project-card"></div>
-        <div className="project-card"></div>
-        <div className="project-card"></div>
+        <Link to="/projects/coeur" className="project-card project-card-link">
+          <img src={coeurHomepage} alt="Coeur" className="project-card-image" />
+          <span className="project-card-label">Coeur</span>
+        </Link>
+        <Link to="/projects/bonk-lite" className="project-card project-card-link">
+          <img src={bonkLitePoster} alt="Bonk Lite" className="project-card-image" />
+          <span className="project-card-label">Bonk Lite</span>
+        </Link>
       </div>
 
       <Footer />

@@ -6,6 +6,7 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import XboxGamingWellness from './pages/XboxGamingWellness'
 import Coeur from './pages/Coeur'
+import BonkLite from './pages/BonkLite'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/xbox-gaming-and-wellness-insights" element={<XboxGamingWellness />} />
         <Route path="/projects/coeur" element={<Coeur />} />
+        <Route path="/projects/bonk-lite" element={<BonkLite />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

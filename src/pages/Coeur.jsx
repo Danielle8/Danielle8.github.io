@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom'
 import Footer from '../components/footer/Footer'
+import coeurHomepage from '../assets/projects/coeur-homepage.jpg'
+import coeurPreview from '../assets/projects/coeur-preview.mp4'
+import coeurPoster from '../assets/projects/coeur-poster.jpg'
+import coeurProductPage from '../assets/projects/coeur-product-page.jpg'
 import './ProjectDetail.css'
 
 const Coeur = () => {
@@ -35,7 +39,11 @@ const Coeur = () => {
         Visit Site
       </a>
 
-      <div className="project-detail-placeholder"></div>
+      <img
+        src={coeurHomepage}
+        alt="Coeur homepage hero section"
+        className="project-detail-placeholder project-detail-image"
+      />
 
       <div className="project-detail-body">
         <section id="background" className="project-section">
@@ -48,6 +56,37 @@ const Coeur = () => {
             Coeur website, bringing the brand's refined, heritage-driven aesthetic to life in a
             responsive, production-ready site.
           </p>
+        </section>
+
+        <section id="homepage-walkthrough" className="project-section">
+          <h2 className="section-heading">Homepage Walkthrough</h2>
+          <p className="section-text">
+            A quick look at scrolling through the homepage, from the hero section down to the
+            featured products.
+          </p>
+          <video
+            src={coeurPreview}
+            poster={coeurPoster}
+            className="project-body-image"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </section>
+
+        <section id="product-page" className="project-section">
+          <h2 className="section-heading">Product Page</h2>
+          <p className="section-text">
+            Beyond the homepage, I built out the individual product pages, including color
+            selection, pricing, and expandable product details, to match the same clean, editorial
+            feel throughout the shopping experience.
+          </p>
+          <img
+            src={coeurProductPage}
+            alt="Coeur product page for the Joséphine Laptop Bag"
+            className="project-body-image"
+          />
         </section>
       </div>
 

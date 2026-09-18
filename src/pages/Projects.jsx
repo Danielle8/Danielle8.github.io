@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../components/footer/Footer'
 import xboxPrototypeScreens from '../assets/projects/xbox-prototype-screens.png'
+import coeurHomepage from '../assets/projects/coeur-homepage.jpg'
+import bonkLitePoster from '../assets/projects/bonk-lite-poster.jpg'
 import './Projects.css'
 
 const filters = ['All Categories', 'Design', 'Code']
@@ -19,8 +21,15 @@ const projects = [
     blurb: 'UI implementation for Coeur, a luxury leather goods brand built on ethical sourcing and full traceability.',
     categories: ['Code'],
     link: '/projects/coeur',
+    image: coeurHomepage,
   },
-  { name: 'Project Name', blurb: '[include blurb here]', categories: ['Design', 'Code'] },
+  {
+    name: 'Bonk Lite',
+    blurb: 'A 3D survival action game built in Unity with a five-person team for a Video Game Design course.',
+    categories: ['Design', 'Code'],
+    link: '/projects/bonk-lite',
+    image: bonkLitePoster,
+  },
 ]
 
 const Projects = () => {

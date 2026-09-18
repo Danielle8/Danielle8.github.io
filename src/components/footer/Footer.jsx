@@ -13,7 +13,6 @@ const Footer = () => {
           <img src={envelopeIcon} alt="Email" className="icon" />
         </a>
       </div>
-      <p className="footer-text">Danielle Crevecoeur 2025</p>
     </div>
   )
 }
