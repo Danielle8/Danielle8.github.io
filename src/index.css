@@ -1,10 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --color-accent: #bb7785;
+    --color-accent-dark: #485e3e;
+    --color-section-bg: #fdf6f6;
+    --color-card-bg: #efeaea;
+    --color-footer-text: #828282;
 }
 body{
-    height: 100vh;
+    min-height: 100vh;
     background: white;
     color: rgb(39, 38, 38);
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
+}
+a{
+    color: inherit;
 }
