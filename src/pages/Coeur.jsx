@@ -25,7 +25,7 @@ const Coeur = () => {
           </div>
           <div className="meta-item">
             <h3 className="meta-label">Tools Used:</h3>
-            <p className="meta-value">HTML, CSS, JavaScript</p>
+            <p className="meta-value">HTML, CSS, JavaScript, Shopify Liquid</p>
           </div>
         </div>
       </div>
