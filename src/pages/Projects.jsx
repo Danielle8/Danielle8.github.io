@@ -14,7 +14,12 @@ const projects = [
     link: '/projects/xbox-gaming-and-wellness-insights',
     image: xboxPrototypeScreens,
   },
-  { name: 'Project Name', blurb: '[include blurb here]', categories: ['Code'] },
+  {
+    name: 'Coeur',
+    blurb: 'UI implementation for Coeur, a luxury leather goods brand built on ethical sourcing and full traceability.',
+    categories: ['Code'],
+    link: '/projects/coeur',
+  },
   { name: 'Project Name', blurb: '[include blurb here]', categories: ['Design', 'Code'] },
 ]
 

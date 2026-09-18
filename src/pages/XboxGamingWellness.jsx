@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import Footer from '../components/footer/Footer'
 import xboxPrototypeScreens from '../assets/projects/xbox-prototype-screens.png'
-import './XboxGamingWellness.css'
+import './ProjectDetail.css'
 
 const EmpathizeIcon = () => (
   <svg viewBox="0 0 48 48" fill="none" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
